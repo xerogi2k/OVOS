@@ -1,12 +1,10 @@
 version: '3'
 services:
   game1:
-    image: 2048-game-image
     build: .
     ports:
       - "5000:8080"
   game2:
-    image: 2048-game-image
     build: .
     ports:
       - "5001:8080"
